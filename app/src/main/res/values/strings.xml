@@ -13,4 +13,6 @@
     <string name="selected_user_name">Selected User Name</string>
     <string name="back_button">Back Button</string>
     <string name="choose_a_user">Choose a User</string>
+    <string name="retry">Retry</string>
+    <string name="list_screen">List Screen</string>
 </resources>
