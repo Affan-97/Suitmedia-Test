@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SuitMedia</string>
+    <string name="user_image">User Image</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="next">Next</string>
+    <string name="check">Check</string>
+    <string name="ispalindrome">isPalindrome</string>
+    <string name="not_palindrome">not palindrome</string>
+    <string name="palindrome_check">Palindrome Check</string>
+</resources>
