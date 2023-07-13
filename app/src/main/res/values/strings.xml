@@ -8,4 +8,9 @@
     <string name="ispalindrome">isPalindrome</string>
     <string name="not_palindrome">not palindrome</string>
     <string name="palindrome_check">Palindrome Check</string>
+    <string name="welcome_screen">Welcome Screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="back_button">Back Button</string>
+    <string name="choose_a_user">Choose a User</string>
 </resources>

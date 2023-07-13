@@ -1,8 +1,10 @@
-package com.affan.suitmedia
+package com.affan.suitmedia.ui
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.affan.suitmedia.R
 import com.affan.suitmedia.databinding.ActivityMainBinding
 import com.affan.suitmedia.utils.palindromeChecker
 import com.affan.suitmedia.utils.showToast
@@ -36,6 +38,18 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnNext.setOnClickListener {
+            if (txtName.text.toString().isEmpty()) {
+                showToast(this, "Name Field Is Empty")
+            } else {
+
+                val intent = Intent(this@MainActivity, WelcomeActivity::class.java)
+                intent.putExtra(EXTRA_NAME, txtName.text.toString())
+                startActivity(intent)
+            }
+
+        }
+
     }
 
     override fun onDestroy() {
@@ -54,5 +68,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         builder.show()
+    }
+
+    companion object {
+        const val EXTRA_NAME = "username"
     }
 }
